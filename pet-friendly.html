@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>臺灣GoGo - 寵物友善行程</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- JQuery Link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+    
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Taiwan GoGo</a>
+            <a href="file:///C:/Users/88696/Desktop/web/home.html" class="back">Back</a>
+        </div>
+    </header>
+    <!-- Pet-friendly Page -->
+    <section class="pet-friendly" id="pet-friendly">
+        <div class="pet-friendly-text container">
+            <h1 class="pet-friendly-title">Welcome</h1>
+            <h1 class="pet-friendly-subtitle"> Enjoy ur trip!</h1>
+        </div>
+    </section>
+    <!-- Post Filter -->
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter='all'>全部</span>
+        <span class="filter-item" data-filter='site'>景點</span>
+        <span class="filter-item" data-filter='restaurant'>餐廳</span>
+        <span class="filter-item" data-filter='hotel'>飯店</span>
+    </div>
+    <!-- Posts Restaurant-->
+    <section class="post container">
+    <!-- Post Box 1 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/kiku%20cafe%20%E8%8A%8D%E7%B1%B3.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>Kiku cafe 芍米</p>
+            <p class="post-description">地址：基隆市中正區正濱路70號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 2 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E7%BE%8E%E6%9C%89%E8%A8%88%E7%95%AB.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>美有計劃 Cafe</p>
+            <p class="post-description">地址：基隆市仁愛區愛三路 98 巷 15 號 2 樓</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 3 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/ma%20Area%20134.jpg">
+            <h2 class="category">餐廳</h2>
+            <p>ma Area 134</p>
+            <p class="post-description">地址：新北市淡水區北新路 3 段 134 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E6%B5%AA%E6%B5%AA%E5%88%A5%E5%93%AD.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>浪浪別哭</p>
+            <p class="post-description">地址：台北市中正區林森北路9巷13號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 5 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E5%B0%8F%E6%98%A5%E6%97%A5%E5%92%8C.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>小春日和</p>
+            <p class="post-description">地址：台北市松山區延壽街361號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 6 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E6%8D%B2%E5%B0%BE%E5%B7%B4.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>捲尾巴</p>
+            <p class="post-description">地址：新北市永和區永平路 306 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    <!-- Post Box 7 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/GoGoBox%20%E9%A4%90%E8%BB%8A%E8%AA%8C%20in%E6%A8%82%E7%81%A3%E5%9F%BA%E5%9C%B0.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>GoGoBox 餐車誌 in 樂灣基地</p>
+            <p class="post-description">地址：桃園市大溪區復興路二段 138 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 8 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E6%A3%AE%E6%9E%97%E9%A3%9F%E5%A0%82&%E9%87%8E%E9%A4%90%E5%B8%82%E9%9B%86.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>森林食堂＆野餐市集</p>
+            <p class="post-description">地址：新竹市新竹市食品路 62 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 9 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/VuCafe%C2%B7%E7%83%8F%E8%89%B2%E5%92%96%E5%95%A1.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>VuCafe•烏色咖啡</p>
+            <p class="post-description">地址：苗栗縣苗栗市縣府路 102 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    <!-- Post Box 10 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E5%8D%88%E5%B1%85%E5%92%96%E5%95%A1%E5%B1%8B.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>午居咖啡屋寵物友善</p>
+            <p class="post-description">地址：苗栗縣頭份市中央路 134 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 11 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E9%A4%8A%E9%8D%8B.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>養鍋 Yang Guo 石頭涮涮鍋</p>
+            <p class="post-description">地址：彰化縣員林市大同路二段 14 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 12 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E5%8D%83%E6%B1%8C.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>千汌</p>
+            <p class="post-description">地址：臺中市西區西區存中街 61 巷 1 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 13 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/Nago%20Nago.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>Nago Nago</p>
+            <p class="post-description">地址：台中市北屯區同榮路 93 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 14 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/P%C3%A2tisserie%20%C3%A0%20la%20Montagne%20%E8%92%99%E5%A1%94%E5%A6%AE.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>Pâtisserie à la Montagne 蒙塔妮</p>
+            <p class="post-description">地址：南投縣仁愛鄉壽亭巷 20 之 1 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 15 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E6%A8%82%E6%99%A8%20Brunch.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>樂晨 Brunch</p>
+            <p class="post-description">地址：雲林縣虎尾鎮科園路 365 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 16 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E5%98%89%E7%BE%A9%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>貳樓餐廳 Second Floor Cafe 嘉義店</p>
+            <p class="post-description">地址：嘉義市西區文化路 299 號一樓</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 17 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E4%BA%8C%E5%B0%BE%E4%BC%8F%E5%B3%B6.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>二尾伏島</p>
+            <p class="post-description">地址：嘉義縣民雄鄉中樂路 27 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 18 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/Ai-Wei%20Bistro%20%E6%84%9B%E8%96%87%E9%A4%90%E9%85%92%E9%A4%A8.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>Ai-Wei Bistro 愛薇餐酒館</p>
+            <p class="post-description">地址：臺南市中西區赤崁東街 66 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 19 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E8%82%A5%E8%B2%93%E5%92%96%E5%95%A1%20(%E8%82%A5%E8%B2%93%E6%95%85%E4%BA%8B%E9%A4%A8).jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>肥貓咖啡 (肥貓故事館)</p>
+            <p class="post-description">地址：臺南市中西區神農街 135 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 20 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E5%BE%AE%E7%AC%91%E7%9A%84%E7%99%BD%E9%9B%B2.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>微笑的白雲</p>
+            <p class="post-description">地址：高雄市小港區大平路 63 之 2 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 21 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E8%8F%81%20coffee%20drink%20%E7%BE%8E%E8%A1%93%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>菁 coffee drink 美術店</p>
+            <p class="post-description">地址：高雄市鼓山區美術東三路一號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 22 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E6%A8%B9%E5%A4%8F%E9%A3%B2%E4%BA%8B.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>樹夏飲事</p>
+            <p class="post-description">地址：屏東縣恆西路 12 之 21 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 23 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E8%8C%B6%E5%B1%B1%E9%A4%90%E9%A4%A8%EF%BC%88%E7%89%9B%E8%82%89%E9%BA%B5,%E7%84%A1%E8%8F%9C%E5%96%AE%E6%96%99%E7%90%86%EF%BC%89.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>茶山餐館（牛肉麵,無菜單料理）</p>
+            <p class="post-description">地址：屏東縣滿州鄉茶山路 396 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 24 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E6%97%A5%E6%9A%AE%E5%92%8C%E9%A2%A8%E6%B4%8B%E9%A3%9F%E9%A4%A8.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>日暮和風洋食館</p>
+            <p class="post-description">地址：宜蘭縣羅東鎮光榮路 165 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 25 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E8%94%A5%E6%B5%AA%E5%A0%A1%20Wave%20Burger.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>蔥浪堡 Wave Burger</p>
+            <p class="post-description">地址：宜蘭縣礁溪鄉和平路 28 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 26 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/woof%20%E6%B1%AA%E5%AF%B5%E7%89%A9%E9%A4%90%E5%BB%B3.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>woof 汪寵物餐廳</p>
+            <p class="post-description">地址：花蓮縣吉安鄉南濱路一段 3 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 27 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E5%8D%97%E5%B3%B6%E7%99%BE%E5%90%88%20Lily%20Of%20Island%20Eatery.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>南島百合 Lily Of Island Eatery</p>
+            <p class="post-description">地址：花蓮縣花蓮市博愛街 75 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 28 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E5%8F%B0%E6%9D%B1%E5%8F%AF%E5%8F%AF%E5%A8%9C%E5%92%96%E5%95%A1.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>台東可可娜咖啡</p>
+            <p class="post-description">地址：臺東縣卑南鄉杉原 22 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 29 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/193%E5%92%96%E5%95%A1.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>193咖啡館</p>
+            <p class="post-description">地址：臺東縣臺東市洛陽街 193 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 30 -->
+        <div class="post-box restaurant">
+            <img src="img/pet-friendly/restaurant/%E6%99%82%E5%92%96%E5%95%A1%20SHILICAFE.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>時咖啡 SHILICAFE</p>
+            <p class="post-description">地址：澎湖縣馬公市 160 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    </section>
+    
+    
+    <!-- Posts Hotel-->
+    <section class="post container">
+    <!-- Post Box 1 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E5%8F%B0%E5%8C%97%E5%90%9B%E6%82%85%E9%85%92%E5%BA%97.webp" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台北君悅酒店</p>
+            <p class="post-description">地址：台北市信義區松壽路2號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 2 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E9%87%91%E6%99%AE%E9%A0%93%E5%A4%A7%E5%AE%89%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台北金普頓大安酒店</p>
+            <p class="post-description">地址：台北市大安區仁愛路四段 27 巷 25 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 3 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E4%B8%89%E5%B3%BD%E5%A4%A7%E6%9D%BF%E6%A0%B9%E6%A3%AE%E6%9E%97%E6%BA%AB%E6%B3%89%E9%85%92%E5%BA%97.jpg">
+            <h2 class="category">飯店</h2>
+            <p>三峽大板根森林溫泉酒店</p>
+            <p class="post-description">地址：新北市三峽區插角里插角 79 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 4 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E6%A1%83%E5%9C%92%E9%BA%97%E5%A4%9A%E6%A3%AE%E6%9E%97%E6%BA%AB%E6%B3%89%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>桃園麗多森林溫泉酒店</p>
+            <p class="post-description">地址：桃園市楊梅區東森路 3 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 5 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E7%BE%8E%E5%A5%BD%E5%A2%83%E7%95%8C%20Wonderwall.webp">
+            <h2 class="category">飯店</h2>
+            <p>美好境界 Wonderwall</p>
+            <p class="post-description">地址：宜蘭縣五結鄉季水路 87-10 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 6 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E7%93%8F%E5%B1%B1%E6%9E%97%E8%98%87%E6%BE%B3%E5%86%B7%E7%86%B1%E6%B3%89%E5%BA%A6%E5%81%87%E9%A3%AF%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>瓏山林蘇澳冷熱泉度假飯店</p>
+            <p class="post-description">地址：宜蘭縣蘇澳鎮中原路 301 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 7 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E9%9B%A8%E5%B3%B6%E6%97%85%E5%BA%97%20Hotel%20Drizzle.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>雨島旅店 Hotel Drizzle</p>
+            <p class="post-description">地址：基隆市仁愛區仁三路 8 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 8 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E6%96%B0%E7%AB%B9%E4%BC%8A%E6%99%AE%E7%B4%A2%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>新竹伊普索酒店</p>
+            <p class="post-description">地址：新竹市東區埔頂裡公道五路 2 段 111 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 9 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E6%96%B0%E7%AB%B9%E8%8B%B1%E8%BF%AA%E6%A0%BC%E9%85%92%E5%BA%97.webp" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>新竹英迪格酒店</p>
+            <p class="post-description">地址：新竹市東區公道五路二段 111 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 10 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E6%84%9B%E9%BA%97%E7%B5%B2%E5%9C%8B%E9%9A%9B%E5%A4%A7%E9%A3%AF%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>愛麗絲國際大飯店</p>
+            <p class="post-description">地址：台中市西區柳川西路二段 77 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 11 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E9%80%97%E8%99%9F%E6%B0%91%E5%AE%BF.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>逗號民宿</p>
+            <p class="post-description">地址：苗栗縣南庄鄉福南路58號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 12 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E5%B0%8F%E8%89%BE%E8%AC%99%E5%92%8C%E4%BA%BA%E6%96%87%E6%B0%91%E5%AE%BF.avif" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>小艾謙和人文民宿</p>
+            <p class="post-description">地址：彰化縣鹿港鎮金盛巷 40 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 13 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/LOOK%E8%B7%AF%E6%AE%BC.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>LOOK 路殼</p>
+            <p class="post-description">地址：南投縣魚池鄉大林村永川巷 22-6 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 14 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E9%9B%B2%E6%9E%97%E5%95%86%E5%8B%99%E6%97%85%E9%A4%A8%E2%80%94%E8%8A%B3%E6%96%AF%E8%8F%AF.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>雲林商務旅館—芳斯華</p>
+            <p class="post-description">地址：雲林縣土庫鎮光明路 302 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 15 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E5%A4%9A%E9%87%8E%E6%A8%82%E6%97%85%E9%A4%A8.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>多野樂旅館</p>
+            <p class="post-description">地址：高雄市楠梓區興楠路 385 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 16 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E6%BC%AB%E6%AD%A5%E5%A6%98%E7%AB%AF%E6%97%85%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>漫步妘端旅店</p>
+            <p class="post-description">地址：高雄市苓雅區中華四路 29 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 17 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E9%AB%98%E9%9B%84%E8%90%AC%E8%B1%AA%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>高雄萬豪酒店</p>
+            <p class="post-description">地址：高雄市鼓山區龍德新路 222 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 18 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E7%B9%AA%E6%97%A5%E4%B9%8B%E4%B8%98.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>繪日之丘</p>
+            <p class="post-description">地址：嘉義市東區大雅路一段 888 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 19 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E5%98%89%E6%A5%A0%E9%A2%A8%E8%8F%AF%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>嘉楠風華酒店</p>
+            <p class="post-description">地址：嘉義市西區四維路 232 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 20 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E6%88%80%E6%88%80%E6%98%9F%E8%BE%B0%E6%B9%96%E7%95%94%E8%8E%8A%E5%9C%92%E2%80%93%E6%98%9F%E8%BE%B0%E9%A4%A8.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>戀戀星辰湖畔莊園–星辰館</p>
+            <p class="post-description">地址：屏東縣恆春鎮南灣路 649 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 21 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E5%A2%BE%E4%B8%81%20%E7%A6%8F%E8%8F%AFvilla%E5%88%A5%E5%A2%85.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>墾丁福華villa別墅</p>
+            <p class="post-description">地址：屏東縣恆春鎮墾丁路 2-1 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 22 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E5%AE%85%E5%8D%97.%E5%8F%B0%E5%8D%97%E6%B0%91%E5%AE%BF.webp" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>宅南.台南民宿</p>
+            <p class="post-description">地址：臺南市中西區府前路一段 122 巷 12 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 23 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/Dear%20House%20%E5%89%B5%E6%84%8F%E6%97%85%E5%AE%BF.webp" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>Dear House 創意旅宿</p>
+            <p class="post-description">地址：台南市中西區臨安路一段 212 巷 36 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 24 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E5%8F%B0%E5%8D%97%E9%97%9C%E5%AD%90%E5%B6%BA%E6%9E%97%E6%A1%82%E5%9C%93%E7%9F%B3%E6%B3%89%E6%9C%83%E9%A4%A8.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台南關子嶺林桂圓石泉會館</p>
+            <p class="post-description">地址：臺南市台南市白河區關嶺里 53-18 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 25 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E5%8F%B0%E6%9D%B1%E7%B6%BA%E9%BA%97%E6%B8%A1%E5%81%87%E6%9D%91.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台東綺麗渡假村</p>
+            <p class="post-description">地址：台東縣鹿野鄉中華路一段 260 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 26 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E9%B9%BF%E9%B3%B4%E6%BA%AB%E6%B3%89%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>鹿鳴溫泉酒店</p>
+            <p class="post-description">地址：台東縣鹿野鄉中華路一段 200 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 27 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/H_%20%E5%BD%A9%E8%99%B9%E8%8E%8A%E5%9C%92%E6%9C%83%E9%A4%A8.webp" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>H&amp; 彩虹莊園會館</p>
+            <p class="post-description">地址：台東縣台東市志航路一段 146 巷 20 弄 11 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 28 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E6%96%B9%E8%88%9F%E5%B3%B6.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>方舟島</p>
+            <p class="post-description">地址：花蓮縣花蓮市新城鄉佳林村佳林 112-18 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 29 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E7%90%86%E6%83%B3%E5%A4%A7%E5%9C%B0%E6%B8%A1%E5%81%87%E9%A3%AF%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>理想大地渡假飯店</p>
+            <p class="post-description">地址：花蓮縣壽豐鄉理想路 1 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 30 -->
+        <div class="post-box hotel">
+            <img src="img/pet-friendly/hotel/%E7%91%9E%E7%A9%97%E5%A4%A9%E5%90%88%E5%9C%8B%E9%9A%9B%E8%A7%80%E5%85%89%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>瑞穗天合國際觀光酒店</p>
+            <p class="post-description">地址：花蓮縣瑞穗鄉溫泉路二段 368 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    </section>
+    
+    
+    <!-- Posts Site -->
+    <section class="post container">
+    <!-- Post Box 1 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E8%BF%8E%E9%A2%A8%E7%8B%97%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>迎風狗運動公園</p>
+            <p class="post-description">地址：台北市松山區莊敬里迎風河濱公園金泰段</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 2 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E7%8B%97%E8%80%81%E5%A4%A7%E5%AF%B5%E7%89%A9%E6%B8%A1%E5%81%87%E6%9C%83%E9%A4%A8.png" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>狗老大寵物渡假會館</p>
+            <p class="post-description">地址：桃園市蘆竹區新生路290巷148號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 3 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E8%B2%93%E7%A9%BA.jpg">
+            <h2 class="category">景點</h2>
+            <p>貓空</p>
+            <p class="post-description">地址：台北市文山區指南路三段</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 4 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E7%B6%A0%E5%AF%B6%E7%9F%B3%E5%AF%B5%E7%89%A9%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>綠寶石寵物公園</p>
+            <p class="post-description">地址：新北市永和區中正橋下至新生溝抽水站</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 5 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%8B%9D%E6%B4%8B%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4.webp" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>勝洋休閒農場</p>
+            <p class="post-description">地址：宜蘭縣員山鄉八甲路 15 之 6 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 6 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%9F%BA%E9%9A%86%E5%92%8C%E5%B9%B3%E5%B3%B6%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>基隆和平島公園</p>
+            <p class="post-description">地址：基隆市中正區平一路 360 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 7 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E4%B8%AD%E6%88%90%E5%AF%B5%E7%89%A9%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>中成寵物公園</p>
+            <p class="post-description">地址：桃園市桃園區國際路二段 475 巷</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 8 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E7%A6%8F%E6%9E%97%E5%85%AC%E5%9C%92.webp" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>福林公園</p>
+            <p class="post-description">地址：桃園市桃園區介壽路 281 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 9 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%B7%A6%E5%B2%B8%E7%8B%97%E7%8B%97%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>左岸狗狗公園</p>
+            <p class="post-description">地址：新竹市東區頭前溪橋下</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 10 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%B0%8F%E6%A3%AE%E4%B9%8B%E6%AD%8C.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>小森之歌</p>
+            <p class="post-description">地址：新竹縣芎林鄉倒別牛 23 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 11 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E7%AB%B9%E6%9D%B1%E7%8B%97%E7%8B%97%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>竹東狗狗公園</p>
+            <p class="post-description">地址：新竹縣竹東鎮沿河街上(台 68 線快速道路下方)</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 12 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E9%A0%AD%E4%BB%BD%E6%9D%B1%E8%88%88%E6%B2%B3%E6%BF%B1%E5%85%AC%E5%9C%92.webp" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>頭份東興河濱公園</p>
+            <p class="post-description">地址：苗栗縣頭份市東興河濱公園(中港溪東興大橋下方東側)</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 13 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E6%A8%82%E6%A5%AD%E5%AF%B5%E7%89%A9%E5%85%AC%E5%9C%92.webp" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>樂業寵物公園(泉源公園)</p>
+            <p class="post-description">地址：台中市東區樂業一路 79 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 14 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E6%B5%B7%E7%81%A3%E6%A8%82%E4%B8%96%E7%95%8C%20HiONE%20World.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>海灣樂世界 HiONE World</p>
+            <p class="post-description">地址：台中市北屯區東山路二段 151 之 2 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 15 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E6%B5%B7%E7%9B%9C%E6%9D%91%E6%99%AF%E8%A7%80%E5%BD%A9%E7%B9%AA%E5%9C%92%E5%8D%80.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>海盜村景觀彩繪園區</p>
+            <p class="post-description">地址：南投縣竹山鎮東鄉路 1 之 67 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 16 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%93%A1%E6%9E%97%E5%AF%B5%E7%89%A9%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>員林寵物公園</p>
+            <p class="post-description">地址：彰化縣員林市員南路 17 號(員南路運動公園旁)</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 17 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E6%AA%9C%E6%84%8F%E6%A3%AE%E6%B4%BB%E6%9D%91.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>檜意森活村</p>
+            <p class="post-description">地址：嘉義市林森東路 1 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 18 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%AE%89%E5%B9%B3%E5%AF%B5%E7%89%A9%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>安平寵物運動公園</p>
+            <p class="post-description">地址：台南市安平區洲平路</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 19 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E4%B8%AD%E6%AD%A3%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>中正公園</p>
+            <p class="post-description">地址：高雄市苓雅區中正一路</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 20 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E9%AB%98%E5%B1%8F%E6%BA%AA%E6%B2%B3%E6%BF%B1%E5%AF%B5%E7%89%A9%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>高屏溪河濱寵物運動公園</p>
+            <p class="post-description">地址：屏東縣高屏溪左岸高灘地(高屏大橋下)</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 21 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%93%88%E7%91%AA%E6%98%9F%E9%90%B5%E9%81%93%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>哈瑪星鐵道文化園區</p>
+            <p class="post-description">地址：高雄市鼓山區鼓山一路 32 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 22 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E9%AB%98%E9%9B%84%E7%8B%97%E7%8B%97%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>高雄狗狗公園</p>
+            <p class="post-description">地址：高雄市苓雅區中正一路</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 23 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%87%B9%E5%AD%90%E5%BA%95%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>凹子底森林公園</p>
+            <p class="post-description">地址：高雄市鼓山區神農路南屏路</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 24 -->
+        <div class="post-box site">
+            <img src="img/pet-friendly/site/%E5%88%9D%E9%B9%BF%E7%89%A7%E5%A0%B4.JPG" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>初鹿牧場</p>
+            <p class="post-description">地址：台東縣卑南鄉明峰村牧場 1 號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <div class="footer-container">
+        <p class="right">本網頁的所有資料，包括文字、圖片、連結及其他資料等（以下簡稱「資料」），只供教學及參考之用。 </p>
+        <p class="right">我們會盡力確保本網頁的資料準確性，但不會肯定任何資料絕對準確無誤，亦不會對任何錯誤或遺漏而帶來任何的損失承擔法律責任。</p>
+    </div>
+</body>
+</html>

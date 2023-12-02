@@ -1,0 +1,227 @@
+/* 導入 Google 雲端字體 Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Noto+Serif+TC:wght@600&family=Poppins:wght@600&display=swap');
+/* 導入 Google 雲端字體 Noto+Serif+TC:wght@600 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Noto+Serif+TC:wght@600&display=swap');
+/* 導入 Google 雲端字體 Noto+Serif+TC:wght@400 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Noto+Serif+TC:wght@400;600&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 3rem 0 2rem;
+}
+
+.container {
+    max-width: 1068px;
+    margin: auto;
+    padding:24px 0 24px;
+    width: 100%;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
+/* 這邊顯示有問題，但影響不大，有時間再debug */
+header.shadow {
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+
+header.shadow .logo {
+    color: #695550;
+}
+
+.nav {
+    display: flex;
+    align-items: center; /* Fix the typo here */
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #695550;
+    font-family: 'Poppins', sans-serif;
+}
+
+.back{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #695550;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+/* Relaxed */
+.relaxed{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #695550;
+    width: 100%;
+    min-height: 330px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://scontent-hkg4-1.xx.fbcdn.net/v/t31.18172-8/27798097_580612235620141_301478264449807408_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=xrfpOC97ta4AX-_fljI&_nc_ht=scontent-hkg4-1.xx&oh=00_AfAq9dfGeDMaGECcBKfkQXiebCCvEY4mQ6-jyp2-NhqKYQ&oe=658E512D');
+    background-color: rgba(255,255,255,0.4);
+    background-blend-mode: screen;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0; /* Ensure the background image is below the navbar */
+}
+.excited{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #695550;
+    width: 100%;
+    min-height: 330px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://scontent-hkg4-1.xx.fbcdn.net/v/t31.18172-8/27798097_580612235620141_301478264449807408_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=xrfpOC97ta4AX-_fljI&_nc_ht=scontent-hkg4-1.xx&oh=00_AfAq9dfGeDMaGECcBKfkQXiebCCvEY4mQ6-jyp2-NhqKYQ&oe=658E512D');
+    background-color: rgba(255,255,255,0.4);
+    background-blend-mode: screen;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0; /* Ensure the background image is below the navbar */
+}
+
+.pet-friendly{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #695550;
+    width: 100%;
+    min-height: 330px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://scontent-hkg4-1.xx.fbcdn.net/v/t31.18172-8/27798097_580612235620141_301478264449807408_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=xrfpOC97ta4AX-_fljI&_nc_ht=scontent-hkg4-1.xx&oh=00_AfAq9dfGeDMaGECcBKfkQXiebCCvEY4mQ6-jyp2-NhqKYQ&oe=658E512D');
+    background-color: rgba(255,255,255,0.4);
+    background-blend-mode: screen;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0; /* Ensure the background image is below the navbar */
+}
+
+/* Post Filter */
+.post-filter{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem !important;
+}
+.filter-item{
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.active-filter{
+    background: #695550;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.post {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    justify-content: center;
+    grid-gap: 1.5rem;
+}
+.post-box{
+    background: #fff;
+    box-shadow: 0 4px 14px rgb(0,0,0,0.1);
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+.post-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+.category{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Noto Serif TC', serif;
+
+    text-align: center;
+    width: 15%;
+    border-radius: 0.5rem;
+    background: #695550;
+    color: #fff;
+}
+.post-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: -webkit-box;
+    /* 保持標題在兩行內 */
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.post-date{
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 4px;
+}
+.post-description{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 5px 0 0px;
+}
+.right{
+    text-align: center;
+    font-size: 12px;
+}
+h2{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    color: #695550;
+}
+p{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    color: #695550;
+    margin: 5px 0 5px;
+}
+span{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    color: #695550;
+}

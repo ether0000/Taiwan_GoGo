@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>臺灣GoGo - 輕鬆行程</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- JQuery Link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+    
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Taiwan GoGo</a>
+            <a href="file:///C:/Users/88696/Desktop/web/home.html" class="back">Back</a>
+        </div>
+    </header>
+    <!-- Relaxed Page -->
+    <section class="relaxed" id="relaxed">
+        <div class="relaxed-text container">
+            <h1 class="relaxed-title">Welcome</h1>
+            <h1 class="relaxed-subtitle"> Enjoy ur trip!</h1>
+        </div>
+    </section>
+    <!-- Post Filter -->
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter='all'>全部</span>
+        <span class="filter-item" data-filter='site'>景點</span>
+        <span class="filter-item" data-filter='restaurant'>餐廳</span>
+        <span class="filter-item" data-filter='hotel'>飯店</span>
+    </div>
+    <!-- Posts Restaurant-->
+    <section class="post container">
+    <!-- Post Box 1 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/CAMA%20COFFEE%20ROASTERS%E8%B1%86%E7%95%99%E6%A3%AE%E6%9E%97.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>CAMA COFFEE ROASTERS豆留森林</p>
+            <p class="post-description">地址：台北市士林區格致路70號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 2 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E5%90%83%E9%A3%AF%E7%9C%8B%E6%B5%B7.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>吃飯看海</p>
+            <p class="post-description">地址：新北市貢寮區香蘭街3-2號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 3 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E7%99%BD%E6%B0%B4%E8%B1%86%E8%8A%B1%EF%BC%88%E5%8F%B0%E5%8C%97%E6%B0%B8%E5%BA%B7%E5%BA%97%EF%BC%89.jpg">
+            <h2 class="category">餐廳</h2>
+            <p>白水豆花（台北永康店）</p>
+            <p class="post-description">地址：台北市大安區永康街31巷9號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E6%9C%9D%E6%97%A5%E5%A4%AB%E5%A9%A6.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>朝日夫婦</p>
+            <p class="post-description">地址：新北市淡水區中正路233-3號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 5 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E5%B0%BC%E6%96%AF%E7%81%A3%E6%B5%B7%E6%B4%8B%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>尼斯灣海洋景觀餐廳</p>
+            <p class="post-description">地址：基隆市中正區漁港二街四樓(探索館頂樓)</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 6 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E7%A7%81%E4%BA%BA%E5%B3%B6%E5%B6%BC%20MYKONOS.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>私人島嶼 MYKONOS</p>
+            <p class="post-description">地址：基隆市中山區湖海路一段37號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    <!-- Post Box 7 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E5%A4%8F%E5%A4%95%E5%A4%8F%E6%99%AF%20Summer%20Land.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>夏夕夏景 Summer Land</p>
+            <p class="post-description">地址：桃園市龍潭區楊銅路二段588-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 8 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/Emmie%E7%9A%84%E5%8D%97%E6%B3%95%E7%8E%AB%E7%91%B0%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>Emmie的南法玫瑰園</p>
+            <p class="post-description">地址：桃園市大溪區復興路346-3號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 9 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E5%9C%B0%E4%B8%AD%E6%B5%B7%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>地中海景觀餐廳</p>
+            <p class="post-description">地址：新竹市北區南寮街241號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    <!-- Post Box 10 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E5%BE%AE%E7%94%9FFloat%20Dept.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>微生Float Dept</p>
+            <p class="post-description">地址：新竹市民權路111巷23號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 11 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E5%9C%B0%E4%B8%AD%E6%B5%B7casa%20caf%C3%A9.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>地中海casa café</p>
+            <p class="post-description">地址：宜蘭縣蘇澳鎮造船路94號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 12 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E8%A0%94%E8%86%BD%E4%BD%A0%E4%BE%86%E9%9C%B2%E5%A4%A9%E7%87%92%E7%83%A4%E5%90%83%E5%88%B0%E9%A3%BD.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>蠔膽你來露天燒烤吃到飽</p>
+            <p class="post-description">地址：台中市沙鹿區臺灣大道六段399號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 13 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E7%84%A1%E7%82%BA%E8%8D%89%E5%A0%82.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>無為草堂</p>
+            <p class="post-description">地址：台中市南屯區公益路二段106號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 14 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E5%A5%BD%E9%A3%9F%E5%A5%BD%E6%99%82Good%20Food%20Good%20Times.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>好食好時Good Food Good Times</p>
+            <p class="post-description">地址：苗栗縣苗栗市中正路673號360</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 15 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E8%B2%A2%E9%8D%8B%E5%85%B1%E9%8D%8B%E9%BA%BB%E8%BE%A3%E7%81%AB%E9%8D%8B%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>貢鍋共鍋麻辣火鍋店</p>
+            <p class="post-description">地址：苗栗縣苗栗市建中街61巷8號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 16 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E9%8A%80%E6%B2%B3%E9%90%B5%E9%81%93%E6%9C%9B%E6%99%AF%E9%A4%90%E5%BB%B3.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>銀河鐵道望景餐廳</p>
+            <p class="post-description">地址：彰化縣社頭鄉後路巷27-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 17 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E6%85%A2%E5%8D%88%E5%BB%9A%E6%88%BF.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>慢午廚房</p>
+            <p class="post-description">地址：南投縣信義鄉望和巷31-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 18 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E9%90%B5%E5%B8%BD%E5%92%96%E5%95%A1.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>鐵帽咖啡</p>
+            <p class="post-description">地址：南投縣國姓鄉中正路二段552之2號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 19 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E9%95%B7%E8%88%88%E5%9C%93%E4%BB%94%E5%86%B0.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>長興圓仔冰</p>
+            <p class="post-description">地址：雲林縣斗六市中華路136號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 20 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E6%9E%97%E8%81%B0%E6%98%8E%E6%B2%99%E9%8D%8B%E9%AD%9A%E9%A0%AD.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>林聰明沙鍋魚頭</p>
+            <p class="post-description">地址：嘉義市東區中正路361號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 21 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E6%B0%91%E4%B8%BB%E7%81%AB%E9%9B%9E%E8%82%89%E9%A3%AF.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>民主火雞肉飯</p>
+            <p class="post-description">地址：嘉義市東區民族路149號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 22 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E6%B0%B4%E7%80%A8%E9%96%A3%E6%B0%B4%E4%B8%8A%E6%9C%A8%E5%B1%8B%E6%99%AF%E8%A7%80%E6%B5%B7%E9%AE%AE%E9%A4%90%E5%BB%B3.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>水瀨閣水上木屋景觀海鮮餐廳</p>
+            <p class="post-description">地址：台南市安南區城西街二段318巷66號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 23 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E6%9F%92%E5%A3%B9%E5%96%AB%E5%A0%82.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>柒壹喫堂</p>
+            <p class="post-description">地址：高雄市鹽埕區大公路71號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 24 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E6%B8%A1%E8%88%B9%E9%A0%AD%E6%B5%B7%E4%B9%8B%E5%86%B0.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>渡船頭海之冰</p>
+            <p class="post-description">地址：高雄市鼓山區濱海一路76號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 25 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E6%83%B3%E5%AE%B6%E7%9A%84%E5%AE%B6.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>想家的家</p>
+            <p class="post-description">地址：屏東縣屏東市勝利星村青島街118號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 26 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E7%A9%80%E5%80%89%E5%AE%A2%E8%80%81%E5%91%B3%E9%BA%B5%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>穀倉客老味麵店</p>
+            <p class="post-description">地址：屏東縣長治鄉長興路44號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 27 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E5%85%A9%E5%80%8B%E7%95%AA%E8%8C%84%E8%BE%B2%E5%A0%B4%E7%89%9B%E8%82%89%E9%BA%B5.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>兩個番茄農場牛肉麵</p>
+            <p class="post-description">地址：澎湖縣湖西鄉青螺村24之3號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 28 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E4%BD%B3%E8%88%88%E5%86%B0%E6%9E%9C%E5%AE%A4.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>佳興冰果室</p>
+            <p class="post-description">地址：花蓮縣新城鄉博愛路22號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 29 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E8%97%8D%E8%89%B2%E6%84%9B%E6%83%85%E6%B5%B7.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>藍色愛情海</p>
+            <p class="post-description">地址：台東縣台東市吉林路二段634號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 30 -->
+        <div class="post-box restaurant">
+            <img src="img/relaxed/restaurant/%E9%83%BD%E8%98%AD%E6%B5%B7%E8%A7%92%E5%92%96%E5%95%A1.jpg" alt="" class="post-img">
+            <h2 class="category">餐廳</h2>
+            <p>都蘭海角咖啡</p>
+            <p class="post-description">地址：台東縣東河鄉舊部路47鄰10-14號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    </section>
+    
+    
+    <!-- Posts Hotel-->
+    <section class="post container">
+    <!-- Post Box 1 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%8F%B0%E5%8C%97%E5%90%9B%E6%82%85%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台北君悅酒店</p>
+            <p class="post-description">地址：台北市信義區松壽路2號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 2 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%8F%B0%E5%8C%97%E6%99%B6%E8%8F%AF%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台北晶華酒店</p>
+            <p class="post-description">地址：台北市中山區中山北路二段39巷3號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 3 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E6%9D%BF%E6%A9%8B%E5%87%B1%E6%92%92%E5%A4%A7%E9%A3%AF%E5%BA%97.jpg">
+            <h2 class="category">飯店</h2>
+            <p>板橋凱撒大飯店</p>
+            <p class="post-description">地址：新北市板橋區縣民大道二段8號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 4 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%8F%B0%E5%8C%97%E6%96%B0%E6%9D%BF%E5%B8%8C%E7%88%BE%E9%A0%93%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台北新板希爾頓酒店</p>
+            <p class="post-description">地址：新北市板橋區民權路88號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 5 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%9F%BA%E9%9A%86%E9%95%B7%E6%A6%AE%E6%A1%82%E5%86%A0%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>基隆長榮桂冠酒店</p>
+            <p class="post-description">地址：基隆市中正區中正路62之1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 6 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E8%8F%AF%E5%B8%A5%E6%B5%B7%E6%99%AF%E9%A3%AF%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>華帥海景飯店</p>
+            <p class="post-description">地址：基隆市仁愛區孝二路108號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 7 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E6%A1%83%E5%9C%92%E5%96%9C%E4%BE%86%E7%99%BB%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>桃園喜來登酒店</p>
+            <p class="post-description">地址：桃園市大園區大觀路777號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 8 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%8F%B0%E5%8C%97%E8%AB%BE%E5%AF%8C%E7%89%B9%E8%8F%AF%E8%88%AA%E6%A1%83%E5%9C%92%E6%A9%9F%E5%A0%B4%E9%A3%AF%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台北諾富特華航桃園機場飯店</p>
+            <p class="post-description">地址：桃園市大園區航站南路1-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 9 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E6%8B%BE%E6%9C%88%E5%B1%B1%E6%88%BF.jpeg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>拾月山房</p>
+            <p class="post-description">地址：新竹縣峨眉鄉7鄰14寮21號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 10 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E6%96%B0%E7%AB%B9%E8%80%81%E7%88%BA%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>新竹老爺酒店</p>
+            <p class="post-description">地址：新竹市東區光復路一段227號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 11 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E4%BA%AB%E6%B2%90%E6%99%82%E5%85%89%E8%8E%8A%E5%9C%92%E6%B8%A1%E5%81%87%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>享沐時光莊園渡假酒店</p>
+            <p class="post-description">地址：苗栗縣苑裡鎮錦山八鄰8-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 12 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%8F%B0%E4%B8%AD%E8%A3%95%E5%85%83%E8%8A%B1%E5%9C%92%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台中裕元花園酒店</p>
+            <p class="post-description">地址：台中市西屯區台灣大道四段610號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 13 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%8F%B0%E4%B8%AD%E6%97%A5%E6%9C%88%E5%8D%83%E7%A6%A7%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>台中日月千禧酒店</p>
+            <p class="post-description">地址：台中市西屯區市政路77號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 14 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E7%94%B0%E4%B8%AD%E6%96%87%E6%97%85.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>田中文旅</p>
+            <p class="post-description">地址：彰化縣田中鎮福安路32巷16號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 15 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E9%9B%B2%E5%93%81%E6%BA%AB%E6%B3%89%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>雲品溫泉酒店</p>
+            <p class="post-description">地址：南投縣魚池鄉中正路23號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 16 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%BE%A1%E5%93%81%E7%8E%8B%E6%9C%9D%E6%97%85%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>御品王朝旅店</p>
+            <p class="post-description">地址：雲林縣斗南鎮建國一路288號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 17 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%98%89%E6%A5%A0%E9%A2%A8%E8%8F%AF%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>嘉楠風華酒店</p>
+            <p class="post-description">地址：嘉義市西區四維路232號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 18 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E6%9F%8F%E5%B1%85.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>柏居</p>
+            <p class="post-description">地址：台南市中西區國華街二段52號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 19 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E7%A6%A7%E6%A6%95%E8%BB%92%E5%A4%A7%E9%A3%AF%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>禧榕軒大飯店</p>
+            <p class="post-description">地址：台南市北區成功路28號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 20 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E6%89%BF%E5%84%84%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>承億酒店</p>
+            <p class="post-description">地址：高雄市前鎮區林森四路189號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 21 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E9%AB%98%E9%9B%84%E6%B4%B2%E9%9A%9B%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>高雄洲際酒店</p>
+            <p class="post-description">地址：高雄市前鎮區新光路33號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 22 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E6%81%86%E6%98%A5%E8%8F%AF%E6%B3%B0%E7%91%9E%E8%8B%91.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>恆春華泰瑞苑</p>
+            <p class="post-description">地址：屏東縣恆春鎮公園路101號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 23 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E7%A4%81%E6%BA%AA%E8%80%81%E7%88%BA%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>礁溪老爺酒店</p>
+            <p class="post-description">地址：宜蘭縣礁溪鄉五峰路69號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 24 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E9%95%B7%E6%A6%AE%E9%B3%B3%E5%87%B0%E9%85%92%E5%BA%97%EF%BC%88%E7%A4%81%E6%BA%AA%EF%BC%89.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>長榮鳳凰酒店（礁溪）</p>
+            <p class="post-description">地址：宜蘭縣礁溪鄉健康路77號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 25 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E9%81%A0%E9%9B%84%E6%82%85%E4%BE%86%E5%A4%A7%E9%A3%AF%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>遠雄悅來大飯店</p>
+            <p class="post-description">地址：花蓮縣壽豐鄉山嶺18號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 26 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E7%A7%A7%E6%82%85%E7%BE%8E%E5%9C%B0%E5%BA%A6%E5%81%87%E9%A3%AF%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>秧悅美地度假飯店</p>
+            <p class="post-description">地址：花蓮縣吉安鄉干城二街100號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 27 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/The%20GAYA%20Hotel%E6%BD%AE%E6%B8%A1%E5%81%87%E9%85%92%E5%BA%97.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>The GAYA Hotel潮渡假酒店</p>
+            <p class="post-description">地址：台東縣台東市新生路169號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 28 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E8%97%8F%E6%B0%B4.png" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>藏水綠島館Hide and Sea@Green Island</p>
+            <p class="post-description">地址：台東縣綠島鄉南寮漁港2-9號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 29 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/U+U%E5%8A%A0%E5%80%8D%E9%81%8A%E6%B0%91%E5%AE%BF.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>U+U加倍遊民宿</p>
+            <p class="post-description">地址：澎湖縣馬公市宅脚嶼160號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 30 -->
+        <div class="post-box hotel">
+            <img src="img/relaxed/hotel/%E5%B0%8A%E9%A0%86%E7%A5%BF%E8%97%9D%E8%A1%93%E6%B0%91%E5%AE%BF.jpg" alt="" class="post-img">
+            <h2 class="category">飯店</h2>
+            <p>尊順祿藝術民宿</p>
+            <p class="post-description">地址：屏東縣琉球鄉本漁路160巷13號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    </section>
+    
+    
+    <!-- Posts Site -->
+    <section class="post container">
+    <!-- Post Box 1 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E5%9F%BA%E9%9A%86%E5%92%8C%E5%B9%B3%E5%B3%B6%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>基隆和平島公園</p>
+            <p class="post-description">地址：基隆市中正區平一路360號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 2 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E7%8B%97%E8%80%81%E5%A4%A7%E5%AF%B5%E7%89%A9%E6%B8%A1%E5%81%87%E6%9C%83%E9%A4%A8.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>狗老大寵物渡假會館</p>
+            <p class="post-description">地址：桃園市蘆竹區新生路290巷148號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 3 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E6%B5%B7%E7%81%A3%E6%A8%82%E4%B8%96%E7%95%8C%20HiONE%20World.jpg">
+            <h2 class="category">景點</h2>
+            <p>海灣樂世界 HiONE World</p>
+            <p class="post-description">地址：臺中市北屯區東山路二段151-2號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 4 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E9%BA%A5%E5%85%8B%E5%B0%BC%E6%99%AF%E8%A7%80%E8%8E%8A%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>麥克尼景觀莊園</p>
+            <p class="post-description">地址：苗栗縣南庄鄉東村17鄰121號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 5 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E4%B8%83%E6%98%9F%E6%BD%AD.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>七星潭</p>
+            <p class="post-description">地址：花蓮縣新城鄉七星街79巷5號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 6 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E5%BD%A9%E7%B9%AA%E7%A9%80%E5%80%89.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>彩繪穀倉</p>
+            <p class="post-description">地址：苗栗縣南庄鄉中山路96-3號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 7 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E8%93%AC%E8%90%8A%E6%BA%AA%E8%AD%B7%E9%AD%9A%E6%AD%A5%E9%81%93.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>蓬萊溪護魚步道</p>
+            <p class="post-description">地址：苗栗縣南庄鄉124縣道106號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 8 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E5%8D%97%E5%BA%84%E8%80%81%E8%A1%97.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>南庄老街</p>
+            <p class="post-description">地址：苗栗縣南庄鄉桂花巷</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 9 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E7%9C%89%E6%BA%AA%E9%AB%98%E7%81%98%E5%9C%B0(%E5%85%A7%E5%9F%94%E9%A3%9B%E5%A0%B4).jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>眉溪高灘地(內埔飛場)</p>
+            <p class="post-description">地址：花蓮縣秀林鄉富世村231-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 10 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E9%AF%89%E9%AD%9A%E6%BD%AD%E6%AD%A5%E9%81%93.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>鯉魚潭步道</p>
+            <p class="post-description">地址：南投縣埔里鎮鯉魚路22-3號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 11 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E8%A7%80%E9%9F%B3%E7%80%91%E5%B8%83.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>觀音瀑布</p>
+            <p class="post-description">地址：嘉義縣竹崎鄉溪心寮44-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 12 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E9%A6%99%E8%95%89%E7%81%A3.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>香蕉灣</p>
+            <p class="post-description">地址：屏東縣恆春鎮船帆路</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 13 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E9%BE%8D%E7%A3%90%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>龍磐公園</p>
+            <p class="post-description">地址：屏東縣恆春鎮台26線946號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 14 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E6%B8%AF%E5%8F%A3%E5%90%8A%E6%A9%8B.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>港口吊橋</p>
+            <p class="post-description">地址：屏東縣琉球鄉民族路20-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 15 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E7%8E%89%E8%98%AD%E8%8C%B6%E5%9C%92%E8%A7%80%E6%99%AF%E5%8F%B0.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>玉蘭茶園觀景台</p>
+            <p class="post-description">地址：宜蘭縣大同鄉松羅村玉蘭路80號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 16 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E7%84%A1%E5%B0%BE%E6%B8%AF%E6%B5%B7%E7%81%98.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>無尾港海灘</p>
+            <p class="post-description">地址：宜蘭縣蘇澳鎮港邊里嶺腳路142-7號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 17 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E5%A4%AA%E5%B9%B3%E6%B4%8B3D%E5%9C%B0%E6%99%AF%E5%85%AC%E5%9C%92.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>太平洋3D地景公園</p>
+            <p class="post-description">地址：花蓮縣花蓮市海濱街138號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 18 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E8%A2%96%E7%8F%8D%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>袖珍博物館</p>
+            <p class="post-description">地址：台北市中山區建國北路一段96號 B1</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 19 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E7%A2%A7%E6%BD%AD%E9%A2%A8%E6%99%AF%E5%8D%80.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>碧潭風景區</p>
+            <p class="post-description">地址：新北市新店區新店路</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 20 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E5%90%89%E5%AE%89%E6%85%B6%E4%BF%AE%E9%99%A2.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>吉安慶修院</p>
+            <p class="post-description">地址：花蓮縣吉安鄉中興路345-1號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 21 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E6%BC%AB%E6%B3%A2%E6%B5%B7%E7%81%98.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>曼波海灘</p>
+            <p class="post-description">地址：花蓮縣新城鄉花8鄉道8號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    
+    <!-- Post Box 22 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E6%9E%97%E5%88%9D%E5%9F%A4%E6%9C%A8%E6%A3%89%E9%81%93.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>林初埤木棉道</p>
+            <p class="post-description">地址：台南市白河區玉豐里林初埤</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 23 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E5%8D%83%E5%B7%A7%E8%B0%B7%E7%89%9B%E6%A8%82%E5%9C%92%E7%89%A7.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>千巧谷牛樂園牧場</p>
+            <p class="post-description">地址：雲林縣崙背鄉東興路182之32號</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+        <!-- Post Box 24 -->
+        <div class="post-box site">
+            <img src="img/relaxed/site/%E5%9B%9B%E5%85%AB%E9%AB%98%E5%9C%B0%E6%88%B0%E5%82%99%E5%9D%91%E9%81%93.jpg" alt="" class="post-img">
+            <h2 class="category">景點</h2>
+            <p>四八高地戰備坑道</p>
+            <p class="post-description">地址：花蓮縣新城鄉海岸路與華西路交叉處</p>
+            <span class="post-date">30 Nov 2023</span>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <div class="footer-container">
+        <p class="right">本網頁的所有資料，包括文字、圖片、連結及其他資料等（以下簡稱「資料」），只供教學及參考之用。 </p>
+        <p class="right">我們會盡力確保本網頁的資料準確性，但不會肯定任何資料絕對準確無誤，亦不會對任何錯誤或遺漏而帶來任何的損失承擔法律責任。</p>
+    </div>
+</body>
+</html>
